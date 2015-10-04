@@ -7,7 +7,7 @@ facebook = new GraphAPI({
 */
 
 FBGraph.init({
-  appId: process.env.FACEBOOK_APPID,
-  secret: process.env.FACEBOOK_SECRET,
+  appId: '159483481063866',
+  secret: '78cbdf153ff681ee5090959bc034f992',
   version: 'v2.3'
 });

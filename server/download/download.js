@@ -17,7 +17,13 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
       { key: 'user.id_str', title: 'User ID' },
       { key: 'user.name', title: 'User Name' },
       { key: 'user.screen_name', title: 'User Screen Name' },
-      { key: 'user.followers_count', title: 'Seguidores' }
+      { key: 'user.followers_count', title: 'Seguidores' },
+      { key: 'lang', title: 'Idioma' },
+      { key: 'retweet_count', title: 'RT Count' },
+      { key: 'favorite_count', title: 'FAV Count' },
+      { key: 'lang', title: 'Idioma' },
+      { key: 'place', title: 'Lugar' },
+      { key: 'coordinates', title: 'Coordenadas' },
     ];
     title = target.name + ' - Tweets';
   }
